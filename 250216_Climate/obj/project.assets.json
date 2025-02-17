@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\CSharp\\250216_Climate\\250216_Climate\\250216_Climate.csproj",
+      "projectUniqueName": "D:\\Code\\CSharp\\ClimateSimulation\\250216_Climate\\250216_Climate.csproj",
       "projectName": "250216_Climate",
-      "projectPath": "D:\\Code\\CSharp\\250216_Climate\\250216_Climate\\250216_Climate.csproj",
+      "projectPath": "D:\\Code\\CSharp\\ClimateSimulation\\250216_Climate\\250216_Climate.csproj",
       "packagesPath": "C:\\Users\\xianfishyu\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\CSharp\\250216_Climate\\250216_Climate\\obj\\",
+      "outputPath": "D:\\Code\\CSharp\\ClimateSimulation\\250216_Climate\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Users\\xianfishyu\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
