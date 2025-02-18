@@ -1,0 +1,15 @@
+d:\Code\CSharp\ClimateSimulation\250216_Climate\bin\Debug\net8.0\250216_Climate.exe
+d:\Code\CSharp\ClimateSimulation\250216_Climate\bin\Debug\net8.0\250216_Climate.deps.json
+d:\Code\CSharp\ClimateSimulation\250216_Climate\bin\Debug\net8.0\250216_Climate.runtimeconfig.json
+d:\Code\CSharp\ClimateSimulation\250216_Climate\bin\Debug\net8.0\250216_Climate.dll
+d:\Code\CSharp\ClimateSimulation\250216_Climate\bin\Debug\net8.0\250216_Climate.pdb
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.GeneratedMSBuildEditorConfig.editorconfig
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.AssemblyInfoInputs.cache
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.AssemblyInfo.cs
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.csproj.CoreCompileInputs.cache
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.sourcelink.json
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.dll
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\refint\250216_Climate.dll
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.pdb
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\250216_Climate.genruntimeconfig.cache
+d:\Code\CSharp\ClimateSimulation\250216_Climate\obj\Debug\net8.0\ref\250216_Climate.dll

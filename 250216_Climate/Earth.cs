@@ -3,22 +3,28 @@ using System.Numerics;
 
 public class Earth
 {
-    static int surfaceResolution = 10000;
-    static int atmosphereResolution = 2;
+    static int surfaceResolution;
+    static int atmosphereResolution;
 
-    Cube top = new Cube(
-        surfaceResolution, atmosphereResolution);
-    Cube bottom = new Cube(
-        surfaceResolution, atmosphereResolution);
-    Cube front = new Cube(
-        surfaceResolution, atmosphereResolution);
-    Cube back = new Cube(
-        surfaceResolution, atmosphereResolution);
-    Cube left = new Cube(
-        surfaceResolution, atmosphereResolution);
-    Cube right = new Cube(
-        surfaceResolution, atmosphereResolution);
+    Cube top;
+    Cube bottom;
+    Cube front;
+    Cube back;
+    Cube left;
+    Cube right;
 
+    public Earth(int _surfaceResolution, int _atmosphereResolution)
+    {
+        surfaceResolution = _surfaceResolution;
+        atmosphereResolution = _atmosphereResolution;
+
+        top = new(surfaceResolution, atmosphereResolution);
+        bottom = new(surfaceResolution, atmosphereResolution);
+        front = new(surfaceResolution, atmosphereResolution);
+        back = new(surfaceResolution, atmosphereResolution);
+        left = new(surfaceResolution, atmosphereResolution);
+        right = new(surfaceResolution, atmosphereResolution);
+    }
 }
 
 public class Cube
@@ -26,12 +32,14 @@ public class Cube
     private int surfaceResolution;
     private int atmosphereResolution;
 
+    public Cell[,] cells;
+
     public Cube(int _surfaceResolution, int _atmosphereResolution)
     {
         surfaceResolution = _surfaceResolution;
         atmosphereResolution = _atmosphereResolution;
 
-        Cell[,] cells = new Cell[surfaceResolution, surfaceResolution];
+        cells = new Cell[surfaceResolution, surfaceResolution];
         for (int i = 0; i < surfaceResolution; i++)
         {
             for (int j = 0; j < surfaceResolution; j++)
@@ -42,12 +50,18 @@ public class Cube
     }
 }
 
+
+//just a test
 public struct Cell(int _atmosphereResolution, Vector2 _localCoordinates)
 {
-    public Surface Surface = Surface.Land;
-    public Atmosphere[] Atmospheres = new Atmosphere[_atmosphereResolution];
-    public Vector2 GeoCoordinates;
+    // public Surface Surface = Surface.Land;
+    // public Atmosphere[] Atmospheres = new Atmosphere[_atmosphereResolution];
+    // public Vector2 GeoCoordinates;
+    static Random random = new Random();
+    public float temperature = random.Next(0, 100);
     public Vector2 LocalCoordinates = _localCoordinates;
+
+
 }
 
 
